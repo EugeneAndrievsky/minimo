@@ -4,8 +4,7 @@
   font-family: 'Playfair Display', serif;
 */
 
-body {  
-  width: 1200px;
+body { 
   margin: 0 auto;  
 }
 
@@ -130,6 +129,40 @@ main p {
   margin-bottom: 135px;
 }
 
+.newsletter {
+  padding-top: 70px;
+  padding-bottom: 90px;    
+  background-color: #f0f0f0;
+}
+
+.newsletter section {
+  width: 400px;
+  margin: 0 auto;
+  padding: 0 5px;
+  border-bottom: 1px solid black;  
+}
+
+.newsletter h3 {
+  margin-bottom: 80px;
+  letter-spacing: .025em;  
+  text-align: center;
+  color: #333;
+}
+
+.newsletter p {
+  position: relative;
+  padding-bottom: 10px;  
+}
+
+.newsletter p::after {
+  content: "";  
+  position: absolute;
+  top: 8px;
+  left: 373px;
+  width: 32px;
+  height: 17px;
+  background: url("../img/send-icon.png");
+}
 
 
 
