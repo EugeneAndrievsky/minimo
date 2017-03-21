@@ -28,6 +28,7 @@ body {
 .main-header {
   height: 605px;
   padding-top: 70px;
+  margin-bottom: 100px;
   line-height: 1em;
   text-transform: uppercase;
   background: url("../img/main-full.jpg") no-repeat center;
@@ -72,3 +73,50 @@ body {
 .main-navigation li:last-child a{
   float: right;
 }
+
+.main-post {
+  margin-bottom: 135px;
+}
+
+main b {
+  display: block;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  line-height: 1em;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #b4ad9e;    
+}
+
+main p + b {  
+  margin-top: 50px;  
+}
+
+main h3 {
+  margin-top: 25px;
+  margin-bottom: 30px;
+  
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  line-height: 1em;
+  font-weight: 400;
+  color: #626262;  
+}
+
+main p {
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  line-height: 24px;  
+  color: #626262;
+}
+
+
+
+
+
+
+
+
+
+
+
