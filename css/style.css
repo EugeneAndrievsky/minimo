@@ -131,7 +131,8 @@ main p {
 
 .newsletter {
   padding-top: 70px;
-  padding-bottom: 90px;    
+  padding-bottom: 90px;   
+  margin-bottom: 100px;
   background-color: #f0f0f0;
 }
 
@@ -162,6 +163,22 @@ main p {
   width: 32px;
   height: 17px;
   background: url("../img/send-icon.png");
+}
+
+main .btn {
+  display: block;
+  box-sizing: border-box;
+  width: 165px;
+  height: 60px;
+  margin: 165px auto;
+  padding: 18px 33px;   
+  
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  color: #626262;
+  border: 1px solid #626262;
 }
 
 
