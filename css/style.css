@@ -80,6 +80,7 @@ body {
 
 main b {
   display: block;
+  margin-top: 30px;
   font-family: 'Ubuntu', sans-serif;
   font-size: 14px;
   line-height: 1em;
@@ -94,7 +95,7 @@ main p + b {
 
 main h3 {
   margin-top: 25px;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
   
   font-family: 'Playfair Display', serif;
   font-size: 30px;
@@ -104,11 +105,32 @@ main h3 {
 }
 
 main p {
+  margin: 0;
   font-family: 'Playfair Display', serif;
   font-size: 14px;
   line-height: 24px;  
   color: #626262;
 }
+
+.other-posts {
+  margin-bottom: 115px;
+}
+
+.other-posts  section:nth-child(2n-1){
+  float: left;
+  width: 420px;
+}
+
+.other-posts  section:nth-child(2n){
+  float: right;
+  width: 420px;
+}
+
+.other-posts-row {
+  margin-bottom: 135px;
+}
+
+
 
 
 
