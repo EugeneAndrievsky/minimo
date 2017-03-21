@@ -181,14 +181,45 @@ main .btn {
   border: 1px solid #626262;
 }
 
+.main-footer {
+  background-color: #f0f0f0;
+  padding-top: 35px;
+  padding-bottom: 40px;
+}
 
+.main-footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
+.main-footer ul:first-child {
+  float: left;
+  padding-left: 81px;
+}
 
+.main-footer ul:first-child li{
+  margin-right: 12px;
+}
 
+.main-footer ul:last-child {
+  float: right;
+}
 
+.main-footer ul:last-child li{
+  margin-left: 12px
+}
 
+.main-footer ul:last-child li:first-child{
+  margin-right: 5px
+}
 
+.main-footer li {
+  display: inline-block;
+  color: black;
+}
 
-
-
-
+.main-footer a { 
+  text-decoration: none;
+  color: black;
+}
