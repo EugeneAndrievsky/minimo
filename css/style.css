@@ -104,8 +104,7 @@ main h3 {
 }
 
 main p {
-  margin: 0;
-  
+  margin: 0;  
   font-family: 'Playfair Display', serif;
   font-size: 14px;
   line-height: 24px;  
@@ -116,13 +115,40 @@ main p + p {
   margin-top: 30px;  
 }
 
-main p:last-of-type {
-  margin-bottom: 60px;  
+.main-post > img{
+  display: block;
+  margin-top: 60px;
 }
 
-.main-post img{
-  display: block;
-  margin-bottom: 60px;
+.main-post blockquote {
+  margin: 20px;
+  margin-top: 50px ;
+  margin-bottom: 25px;  
+  font-style: italic;  
+}
+
+.main-post ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  margin-top: 60px;
+  margin-bottom: 75px;
+  padding: 0;
+  list-style: none;
+}
+
+.main-post li {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 15px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 13px;  
+  text-transform: uppercase;  
+  color: #b4ad9e;  
+}
+
+.main-post li:first-child {
+  margin-right: 5px;
 }
 
 .other-posts {
