@@ -105,10 +105,24 @@ main h3 {
 
 main p {
   margin: 0;
+  
   font-family: 'Playfair Display', serif;
   font-size: 14px;
   line-height: 24px;  
   color: #626262;
+}
+
+main p + p {
+  margin-top: 30px;  
+}
+
+main p:last-of-type {
+  margin-bottom: 60px;  
+}
+
+.main-post img{
+  display: block;
+  margin-bottom: 60px;
 }
 
 .other-posts {
