@@ -221,6 +221,89 @@ main .btn {
   border: 1px solid #626262;
 }
 
+.related {
+  background-color: #f5f5f5;
+  padding-bottom: 90px;
+  margin-bottom: 70px;
+}
+
+.related h5 {
+  padding-top: 70px;
+  margin-bottom: 40px;
+}
+
+.related-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.related-item h3 {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.comments .single-comment {
+  padding-left: 105px; 
+  position: relative;
+}
+
+.single-comment .john::before {
+  content: "";  
+  position: absolute;
+  left: 0;  
+  
+  width: 70px;
+  height: 70px;
+  background-image: url(../img/comment-img.png)  
+}
+
+.single-comment .jane::before {
+  content: "";  
+  position: absolute;
+  left: 0px;
+  
+  width: 70px;
+  height: 70px;
+  
+  border-radius: 50%;  
+  background-color: #cae5e0;   
+}
+
+.single-comment .jane::after {
+  content: "jd";
+  position: absolute;
+  
+  left: 15px;
+  top: 18px; /*(70-34)/2*/
+  
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 34px;
+  line-height: 1em;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  color: white;    
+}
+
+.single-comment b {
+  display: block;
+  margin-bottom: 5px;
+  
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  line-height: 1em;  
+  color: #626262;
+}
+
+.comments > h5 {  
+  margin-bottom: 42px;
+}
+
+.single-comment h5 {
+  margin-top: 25px;
+  margin-bottom: 55px;
+}
+
 .main-footer {
   background-color: #f0f0f0;
   padding-top: 35px;
