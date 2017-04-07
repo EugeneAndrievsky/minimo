@@ -127,19 +127,21 @@ main p + p {
   font-style: italic;  
 }
 
-.main-post ul {
+.main-post ul,
+.comments ul{
   display: flex;
   justify-content: flex-end;
   margin: 0;
   margin-top: 60px;
   margin-bottom: 75px;
   padding: 0;
-  list-style: none;
+  list-style: none;  
 }
 
-.main-post li {
+.main-post li,
+.comments li {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: top;  
   margin-left: 15px;
   font-family: 'Ubuntu', sans-serif;
   font-size: 13px;  
@@ -147,8 +149,17 @@ main p + p {
   color: #b4ad9e;  
 }
 
+.comments ul {
+  margin-top: 35px;
+  margin-bottom: 95px;
+}
+
 .main-post li:first-child {
   margin-right: 5px;
+}
+
+.comments li:first-child {
+  margin-right: 20px;
 }
 
 .other-posts {
