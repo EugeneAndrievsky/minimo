@@ -193,10 +193,30 @@ main p + p {
   vertical-align: bottom;
 }
   
+
+
 .sidebar-tops ul {  
+  
   padding-left: 28px;
   list-style: none; 
   line-height: 1em;
+}
+.sidebar-tops li{
+  position: relative;
+}
+
+.sidebar-tops li::before {
+  position: absolute;
+  content: "";
+  
+  top: 6px;  
+  left: -28px;
+  
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: grey;
+  
 }
 
 .sidebar-tops a {
