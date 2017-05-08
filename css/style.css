@@ -163,9 +163,36 @@ main p + p {
   float: right;
   width: 270px;
   padding-left: 50px;  
-  min-height: 500px;
+  min-height: 1000px;
 }
 
+.sidebar-about h3 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-left: -7px;
+}
+
+.sidebar-about p {
+  font-size: 12px;
+  line-height: 20px;
+  margin-left: -7px;
+  margin-bottom: 20px;
+}
+
+.sidebar-about ul {
+  margin: 0;
+  margin-left: -5px;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar-about li {
+  display: inline-block;
+  height: 17px;
+  margin-right: 17px;
+  vertical-align: bottom;
+}
+  
 .comments ul {
   margin-top: 35px;
   margin-bottom: 95px;
