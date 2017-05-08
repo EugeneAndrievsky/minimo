@@ -149,6 +149,23 @@ main p + p {
   color: #b4ad9e;  
 }
 
+.article {
+  float: left;
+  width: 662px;
+  padding-left: 80px;  
+}
+
+.article img {
+  width: 100%;
+}
+
+.sidebar {
+  float: right;
+  width: 270px;
+  padding-left: 50px;  
+  min-height: 500px;
+}
+
 .comments ul {
   margin-top: 35px;
   margin-bottom: 95px;
