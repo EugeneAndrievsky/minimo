@@ -24,6 +24,10 @@ body {
   clear: both;
 }
 
+a {
+  text-decoration: none;  
+}
+
 .main-header {
   height: 605px;
   padding-top: 70px;
@@ -53,8 +57,7 @@ body {
 }
 
 .main-navigation a {
-  color: #626262;
-  text-decoration: none;
+  color: #626262;  
 }
 
 .main-navigation li {
@@ -227,10 +230,6 @@ main p + p {
   background-color: #b4ad9e;  
 }
 
-.sidebar-tops a {
-   text-decoration: none;
-}
-
 .sidebar-tops h3 {
   font-size: 16px;
   margin-top: 30px;
@@ -352,8 +351,7 @@ main .btn {
   padding: 18px 33px;   
   
   font-family: 'Playfair Display', serif;
-  font-size: 20px;
-  text-decoration: none;
+  font-size: 20px; 
   text-align: center;
   color: #626262;
   border: 1px solid #626262;
@@ -376,8 +374,7 @@ main .btn {
 }
 
 .related-item h3 {
-  font-size: 20px;
-  text-decoration: none;
+  font-size: 20px;  
 }
 
 .comments .single-comment {
@@ -516,7 +513,6 @@ input::-webkit-input-placeholder {
   color: black;
 }
 
-.main-footer a { 
-  text-decoration: none;
+.main-footer a {   
   color: black;
 }
