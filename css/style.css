@@ -25,7 +25,12 @@ body {
 }
 
 a {
-  text-decoration: none;  
+  text-decoration: none;    
+}
+
+.logo a:visited,
+.logo a:active {
+  color: black;
 }
 
 .main-header {
