@@ -155,8 +155,12 @@ main p + p {
 
 .main-post ul,
 .comments ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   margin: 0;
   margin-top: 60px;
   margin-bottom: 75px;
@@ -276,10 +280,15 @@ main p + p {
 }
 
 .sidebar-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  box-sizing: border-box;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 
   width: 250px;
   height: 250px;
@@ -378,7 +387,8 @@ main p + p {
 
 main .btn {
   display: block;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 165px;
   height: 60px;
   margin: 0 auto;
@@ -406,9 +416,14 @@ main .btn {
 }
 
 .related-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .related-item h3 {
@@ -488,7 +503,8 @@ form.single-comment {
 }
 
 .single-comment input[type="text"] {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 0;
   padding-left: 35px;
   width: 100%;
@@ -515,6 +531,10 @@ input:-ms-input-placeholder {
 }
 
 input::-ms-input-placeholder {
+  color: #c8c8c8;
+}
+
+input::placeholder {
   color: #c8c8c8;
 }
 
